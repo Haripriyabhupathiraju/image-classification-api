@@ -1,0 +1,58 @@
+absl-py==2.1.0
+annotated-types==0.7.0
+anyio==3.6.2  # Adjusted to a stable version
+astunparse==1.6.3
+certifi==2024.8.30
+charset-normalizer==3.4.0
+click==8.1.7
+colorama==0.4.6
+fastapi==0.115.6
+filelock==3.16.1
+flatbuffers==24.3.25
+fsspec==2024.10.0
+gast==0.6.0
+google-pasta==0.2.0
+grpcio==1.68.1
+h11==0.14.0
+h5py==3.12.1
+idna==3.10
+Jinja2==3.1.4
+keras==3.7.0
+libclang==14.0.6  # Adjusted for compatibility with TensorFlow
+Markdown==3.7
+markdown-it-py==3.0.0
+MarkupSafe==2.1.2  # Updated for compatibility with Jinja2
+mdurl==0.1.2
+ml-dtypes==0.4.1
+mpmath==1.3.0
+namex==0.0.8  # Ensure this is actually needed in your project
+networkx==3.4  # Adjusted to the latest stable version
+numpy==1.23.5  # Adjusted to a stable version; ensure compatibility with TensorFlow and other libraries.
+opt_einsum==3.4.0
+optree==0.13.1
+packaging==24.2
+pillow==11.0.0
+protobuf==5.29.1
+pydantic==1.*  # Use Pydantic v1 for compatibility with FastAPI (if using FastAPI v0.x)
+pydantic_core==2.*  # Ensure this is compatible with your Pydantic version.
+Pygments==2.*  # Use the latest stable version.
+python-multipart==0.*  # Use the latest stable version.
+requests==2.*  # Use the latest stable version.
+rich==13.*  # Use the latest stable version.
+six==1.*  # Use the latest stable version.
+sniffio==1.*  # Use the latest stable version.
+starlette==0.*  # Use the latest stable version compatible with FastAPI.
+sympy>=1.*  # Use the latest stable version.
+tensorboard>=2.*  # Use the latest stable version compatible with TensorFlow.
+tensorboard-data-server>=0.*  # Use the latest stable version compatible with TensorFlow.
+tensorflow>=2.*  # Specify a major version; adjust according to your needs.
+tensorflow-io-gcs-filesystem>=0.*  # Use the latest stable version compatible with TensorFlow.
+tensorflow_intel>=2.*  # Specify a major version; adjust according to your needs.
+termcolor>=2.*  # Use the latest stable version.
+torch>=2.*  # Specify a major version; adjust according to your needs.
+torchvision>=0.*  # Specify a major version; adjust according to your needs.
+typing_extensions>=4.*  # Use the latest stable version.
+urllib3>=1.*  # Use the latest stable version.
+uvicorn>=0.*  # Use the latest stable version compatible with FastAPI and Starlette.
+Werkzeug>=2.*  # Use the latest stable version compatible with Flask or other frameworks if used.
+wrapt>=1.*  # Use the latest stable version.
